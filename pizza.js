@@ -21,3 +21,10 @@ const menu = {
     }
 }
 console.log(menu);
+console.log(Object.keys(menu));
+
+if (menu.banana) {
+    console.log(menu.banana);
+} else {
+    console.log("Nope, sorry!");
+}
